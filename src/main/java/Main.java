@@ -3,8 +3,10 @@ public class Main {
         Greeter greeter = new Greeter();
         Calculator calculator = new Calculator();
 
-        greeter.greet("World");
-        System.out.println(calculator.add(3, 5));
+        greeter.greet("Monkey");
+        System.out.println(calculator.add(4, 5));
+        System.out.println(calculator.subtract(4, 5));
+
     }
 }
 
